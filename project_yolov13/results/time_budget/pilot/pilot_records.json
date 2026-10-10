@@ -1,0 +1,35 @@
+[
+  {
+    "pilot_id": "20261010",
+    "model_key": "yolo11n",
+    "model_name": "YOLO11n",
+    "budget_minutes": 10,
+    "status": "complete",
+    "run_name": "milestone-pilot-20261010-yolo11n-10m",
+    "started_at_utc": "2026-10-10T11:34:35.591325+00:00",
+    "checkpoint": "runs\\train\\milestone-pilot-20261010-yolo11n-10m\\weights\\best.pt",
+    "log": "results\\time_budget\\pilot\\logs\\milestone-pilot-20261010-yolo11n-10m.log",
+    "history_csv": "runs\\train\\milestone-pilot-20261010-yolo11n-10m\\results.csv",
+    "epochs_completed": 17,
+    "actual_train_seconds": 600.946,
+    "wall_seconds_including_load_and_train": 612.37,
+    "best_epoch": 14,
+    "best_epoch_elapsed_seconds": 495.95,
+    "best_epoch_map50": 0.99385,
+    "best_epoch_map50_95": 0.80876,
+    "final_train_loss": {
+      "box": 0.73784,
+      "cls": 0.40603,
+      "dfl": 0.93774,
+      "total": 2.08161
+    },
+    "final_val_loss": {
+      "box": 0.73095,
+      "cls": 0.35743,
+      "dfl": 0.91475,
+      "total": 2.00313
+    },
+    "stop_reason": "10-minute cap or epoch limit",
+    "finished_at_utc": "2026-10-10T11:44:47.969607+00:00"
+  }
+]

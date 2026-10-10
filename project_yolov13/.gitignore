@@ -1,0 +1,17 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.config/
+dataset/.cache/
+dataset/.runtime/
+dataset/external/
+dataset/images/
+dataset/labels/
+dataset/adv_tshirt_patch_detection/
+weights/*.pt
+runs/
+results/benchmark_eval.csv
+results/benchmark_eval.partial.csv
+results/training/
+results/post_train/
