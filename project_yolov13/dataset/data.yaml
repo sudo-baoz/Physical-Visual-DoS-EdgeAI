@@ -1,11 +1,9 @@
-# Replace the placeholder class with the task's verified class map and place the
-# exact, unchanged train/val/test split under dataset/images/.
-# Run all pipeline commands from this project directory.
-path: ./dataset
+# One-class person detection: COCO 2017 subset + full available AdvT-shirt-1K.
+# Run training commands from project_yolov13/.
+path: ./dataset/fullscale_person
 train: images/train
 val: images/val
 test: images/test
 nc: 1
 names:
-  # Placeholder only. Do not train until the real task class map is confirmed.
-  0: object
+  0: person

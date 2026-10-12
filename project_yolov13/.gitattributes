@@ -1,0 +1,6 @@
+# Preserve experiment artifact bytes so recorded SHA-256 hashes survive checkout.
+results/fullscale_experiments/** -text
+results/fullscale_setup/** -text
+results/BaoCao_TrienKhaiRong_YOLOv13.md -text
+results/BaoCao_TrienKhaiRong_YOLOv13.docx -text
+results/fullscale_mAP_growth.png -text

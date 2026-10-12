@@ -3,9 +3,11 @@
 __pycache__/
 *.py[cod]
 .config/
+yolov13_src/
 dataset/.cache/
 dataset/.runtime/
 dataset/external/
+dataset/fullscale_person/
 dataset/images/
 dataset/labels/
 dataset/adv_tshirt_patch_detection/
@@ -15,3 +17,8 @@ results/benchmark_eval.csv
 results/benchmark_eval.partial.csv
 results/training/
 results/post_train/
+results/fullscale_experiments/logs/
+results/fullscale_experiments/eval/
+results/fullscale_experiments/latency_one.json
+results/fullscale_setup/*.log
+results/fullscale_experiments/docx_qa/
